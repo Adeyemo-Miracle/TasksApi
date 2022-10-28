@@ -136,6 +136,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://adeyemo-miracle.github.io/TaskTracker/",
-    "http://localhost:4173/",
+    "https://adeyemo-miracle.github.io/TaskTracker",
+    "http://localhost:4173",
 ]
