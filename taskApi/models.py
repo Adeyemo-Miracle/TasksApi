@@ -9,10 +9,12 @@ class Tasks(models.Model):
     Day = models.DateField()
     time = models.TimeField()
     reminder = models.BooleanField(default=True)
+    created = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name='Tasks'
         verbose_name_plural='Tasks'
+        ordering=['-created']
 
 
 
